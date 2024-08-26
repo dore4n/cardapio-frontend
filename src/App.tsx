@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Card } from './components/card/card';
 import { useFoodData } from './hooks/useFoodData';
-import { CreateModal } from './components/create-modal/CreateModal';
+import { CreateModal } from './components/create-modal/createmodal';
 
 function App() {
   const { data } = useFoodData();

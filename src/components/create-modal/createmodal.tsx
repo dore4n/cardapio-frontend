@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useFoodDataMutate } from "../../hooks/useFoodDataMutate";
+import { FoodData } from "../../interface/FoodData";
 
 interface InputProps {
     label: string,
@@ -20,7 +22,17 @@ const Input = ({label, value, updateValue }: InputProps) => {
 export function CreateModal(){
     const [title, setTitle] = useState("");
     const [price, setPrice] = useState(0);
-    const [image, setImage] = useState("")
+    const [image, setImage] = useState("");
+    const {mutate} = useFoodDataMutate();
+
+    const submit = () => {
+        const foodData: FoodData = {
+            title,
+            price, 
+            image
+        }
+        mutate(foodData)
+    }
 
     return(
         <div className="modal-overflow">
@@ -32,7 +44,7 @@ export function CreateModal(){
                     <Input label="image" value={image} updateValue={setImage}/>
 
                 </form>
-
+                <button onClick={submit} className="btn-secundary"></button>
             </div>
             
         </div>

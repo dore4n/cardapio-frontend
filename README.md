@@ -1,50 +1,97 @@
-# React + TypeScript + Vite
+# 📱 Cardápio Digital - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao **Cardápio Digital**, um projeto desenvolvido para modernizar a experiência de restaurantes e clientes. Este é um protótipo funcional de uma aplicação frontend desenvolvida com **React**, **TypeScript** e **React Query**. Ele faz parte do meu portfólio e demonstra minhas habilidades na construção de interfaces modernas e performáticas.  
 
-Currently, two official plugins are available:
+<h1 align="center">
+    <img src="./public/home.png" width="300" alt="Página inicial do Cardápio Digital"/>
+    <img src="./public/modal.png" width="300" alt="Modal do Cardápio Digital"/>
+</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca para construção de interfaces dinâmicas e interativas.  
+- **TypeScript**: Superset do JavaScript, proporcionando tipagem estática e maior segurança no desenvolvimento.  
+- **React Query**: Gerenciamento eficiente de dados assíncronos e cache.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 💻 Requisitos para Rodar o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:  
+- **Node.js**: Ambiente de execução do JavaScript no servidor.  
+- **NPM** (ou **Yarn**): Gerenciador de pacotes do Node.js.  
+
+---
+
+## 🚀 Como Rodar a Aplicação
+
+### 1️⃣ Clonando o Repositório  
+Abra seu terminal e execute o comando:  
+
+```bash
+git clone [Ihttps://github.com/dore4n/cardapio-frontend.git]
+cd frontend-cardapio
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 2️⃣ Instalando Dependências  
+Dentro da pasta do projeto, instale as dependências com o comando:  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+### 3️⃣ Executando o Projeto  
+Para rodar o ambiente de desenvolvimento:  
+
+```bash
+npm run dev
+```
+
+O projeto estará acessível no endereço: `http://localhost:5173` (ou similar).  
+
+---
+
+## 🔧 Preparando para Produção  
+
+Se você deseja compilar a aplicação para produção, utilize o comando:  
+
+```bash
+npm run build
+```
+
+Os arquivos otimizados serão gerados na pasta `dist`.  
+
+---
+
+## 🫂 Integração com o Backend  
+
+Este projeto pode ser integrado a uma API desenvolvida com **Java Spring**. Confira o repositório do backend:  
+
+👉 [Link do Repositório Backend](https://github.com/dore4n/cardapio.git)  
+
+---
+
+## 🌟 Funcionalidades Implementadas  
+
+- Navegação fluida e responsiva.  
+- Listagem de itens do cardápio com detalhes em modais.  
+- Gerenciamento de estado assíncrono com **React Query**.  
+- Estrutura de código limpa e escalável com **TypeScript**.  
+
+---
+
+## 🤝 Conecte-se Comigo  
+
+Se você gostou do projeto ou tem sugestões, sinta-se à vontade para me contatar!  
+
+- **Portfólio**: [Meu site](https://dore4n.github.io/)  
+- **LinkedIn**: [Meu Linkedin](https://www.linkedin.com/in/lucasebsantos)  
+- **GitHub**: [Meu GitHub](https://www.github.com/dore4n)  
+
+---
+
+## 📝 Licença  
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.  
+```
+

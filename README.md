@@ -84,7 +84,7 @@ Este projeto pode ser integrado a uma API desenvolvida com **Java Spring**. Conf
 
 Se você gostou do projeto ou tem sugestões, sinta-se à vontade para me contatar!  
 
-- **Portfólio**: [Meu site](dore4n.github.io)  
+- **Portfólio**: [Meu site](https://dore4n.github.io/)  
 - **LinkedIn**: [Meu Linkedin](https://www.linkedin.com/in/lucasebsantos)  
 - **GitHub**: [Meu GitHub](https://www.github.com/dore4n)  
 

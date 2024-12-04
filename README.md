@@ -1,4 +1,3 @@
-```markdown
 # 📱 Cardápio Digital - Frontend
 
 Bem-vindo(a) ao **Cardápio Digital**, um projeto desenvolvido para modernizar a experiência de restaurantes e clientes. Este é um protótipo funcional de uma aplicação frontend desenvolvida com **React**, **TypeScript** e **React Query**. Ele faz parte do meu portfólio e demonstra minhas habilidades na construção de interfaces modernas e performáticas.  
